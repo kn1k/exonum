@@ -50,6 +50,7 @@ macro_rules! messages {
     };
 }
 
+#[doc(hidden)]
 #[macro_export]
 macro_rules! __ex_message {
     {
